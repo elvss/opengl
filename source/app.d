@@ -3,9 +3,9 @@ import SDLabstraction;
 
 
 void main(){
-	SDL_abstraction isdl;
-	isdl.init_SDL();
-	isdl.init_Window();
+	SDL_abstraction isdl; //load abstraction struct
+	isdl.init_SDL(); //initialize SDL base
+	isdl.init_Window(); //Create window loop
 
 	
 }
